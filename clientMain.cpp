@@ -5,7 +5,7 @@ int main(int argc,char **argv)	{
 	TCP_Client client("127.0.0.1", 3579);
 	char* msg = new char[128] ;
 	
-	strcpy(msg, "HELL Connect success!");
+	strcpy(msg, "close");
 	
 	client.TCPClientSocket();
 	
